@@ -1,0 +1,45 @@
+
+
+.left{
+width: 440px;
+float: left;
+height: 400px;
+background-color: #4682B4;
+
+
+}
+ 
+.right{
+width: 440px;
+float: left;
+height: 400px;
+background-color: white;
+
+}
+
+.textbox
+{
+width:160px;
+
+}
+body{
+background-color: lightblue;
+margin:160px;
+}
+
+
+button
+{
+margin: 30px;
+width: 120px;
+height: 25px;
+}
+.mydiv
+{
+margin:0 0 20 30;
+
+}
+.mydiv2
+{
+    margin:100px;
+}

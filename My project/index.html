@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> WEB SITE</title>
+        <link rel="stylesheet" href="style4.css">
+    </head>
+    <body>
+        <div class="full-page"> 
+            <div class="navbar">
+                <div>
+                    <a href="index.html">Seek coding</a>
+                </div>
+                <nav>
+                    <ul id="Menu Items">
+                        <li><a href='#'>Home</a></li>
+                        <li><a href='#'>About Us </a></li>
+                        <li><a href='#'>Services</a></li>
+                        <li><a href='#'>Contact </a></li>
+                        <li><button class="login" onclick="document.getElementById('login-form').style.display='block'"
+                            style="width:auto";></button>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="login-form"class="login-page">
+                <div class="button-box">
+                    <div id="btn">  </div>
+                    <button type="button"onclick="login()"class="toggle-btn"> Log In</button>
+                    <button type="button"onclick="register()"class="toggle-btn">Register</button>
+                 </div>
+                 <form id="login"class="input-group-login">
+                     <input type="text"class="input-feild"placeholder="mail id"required>
+                     <input type="password"class="input-feild"placeholder="Enter the password"required>
+                     <input type="checkbox"class="check-box"><span> Remember password</span>
+                     <button type="submit"class="submit-btn">Log in</button>
+
+                 </form>
+                 <form id="register"class="input-group-register">
+                     <input type="text"class="input-feild"placeholder="First Name"required>
+                     <input type="text"class="input-feild"placeholder="Last Name"required>
+                     <input type="email"class="input-feild"placeholder="Email Id"required>
+                     <input type="password"class="input-feild"placeholder="Enter password"required>
+                     <input type="checkbox"class="check-box"><span>I agree to the terms and condition</span>
+                     <button type="submit"class="submit-btn">Register</button>
+
+
+
+
+
+
+                 </form>
+            </div>
+        </div>
+</body>
+</html>

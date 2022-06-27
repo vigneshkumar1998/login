@@ -1,0 +1,21 @@
+.first
+{
+    
+    border: 50px;
+    padding: 50px;
+    float: left;
+    background-color: #4682B4;
+}
+.second
+{
+    
+    border: 50px;
+    padding: 50px;
+    background-color: white;
+    float: left;
+
+}
+.body
+{
+    background-color: lightblue;
+}

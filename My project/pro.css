@@ -1,0 +1,8 @@
+body{
+  text-align: center;
+  background-color: lightblue;
+}
+.name{
+    margin: 10px;
+    border: 10px;
+}

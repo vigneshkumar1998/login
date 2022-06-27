@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>registration</title>
+    <link rel="stylesheet" href="regcss.css">
+</head>
+
+<body>
+    <div class="left">
+        <h1 style="color:white;" class="mydiv">INFORMATION</h1>
+        <div class="mydiv">
+            <p style="color:white;"> Functions are named blocks of code
+                that are designed to do specifi c job. When
+                you want to perform a particular task that
+                you have defi ned in a function, you call
+                the name of the function responsible for it.
+                If you need to perform that task multiple
+                times throughout your program, you don’t
+                need to type all the code for the same task
+                again and again; </p>
+        </div>
+        <div class="mydiv">
+                <p style="color:white;"><strong> You’ll</strong> find that using functions
+                    makes your programs easier to write, read,
+                    test, and fix errors</p>
+        </div>
+        
+        <button type="submit" class="button" id="btn" onclick="newpage()" >Have An Account</input>
+    </div>
+    <div class="right">
+        <form  onsubmit="return false">
+            <h1 style="color:steelblue;margin:30px;">REGISTER FORM</H1>
+            <div class="mydiv">
+                    <span class="fname"> firstname</span><span class="mydiv2" >lastname</span>
+                    <input type="text" class="textbox" id="fname"></input>
+                    <input type="text" class="textbox" id="lname"></input>
+            </div>
+            <div style="margin:0 0 0 30">
+                    <span class="mailid"> Your Email</span>
+            </div>
+            <div style="margin:0 0 20 30" >
+                    <input type="email"  id="mailid" style="width:325px;"></input>
+            </div>
+            <div class="mydiv">
+                    <span >Password</span><span class="mydiv2">Confirm password</span>
+                    <input type="password" class="textbox" id="pswd"></input>
+                    <input type="password" class="textbox" id="cpswd"></input>
+            </div>
+            
+            <input type="checkbox" id="terms" class="mydiv">I agree to the <a href="">terms and condition</a></input>
+            <button type="button" class="button" id="btn" style="background-color:steelblue;color:white;"
+              onclick="validate()">Register</input>
+    </div>
+    </form>
+</body>
+
+</html>
+<script src="reg.js"></script>
